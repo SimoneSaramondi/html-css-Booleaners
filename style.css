@@ -5,9 +5,14 @@ header{
     height: 100px;
 }
 div{
-    width: 
+    width: 80%;
+    position: relative;
+    left: 50px; 
 }
-
+footer{
+    position: relative;
+    left: 50px;
+}
 #Titolo{
     height: 75px;
     font-size: 50px;
@@ -24,6 +29,9 @@ div{
     background-color: rgb(25, 158, 199);
     color: white;
 }
+.secondo-blocco{
+    background-color: aqua;
+}
 #Scritta{
     color:darkturquoise;
 }
@@ -32,7 +40,29 @@ div{
 }
 #Pattern{
     height: 50px;
+    position: relative;
+    left: 40px;
+    top:40px;
 }
 #sotto-info{
     font-size: 10px;
+}
+#colore-footer{
+    color: grey;
+}
+#prima-immagine{
+    background-image: url(img/monitor.jpg);
+    height: 200px;
+    width: 200px;
+}
+#seconda-immagine{
+    background-image: url(img/graph.jpg);
+    height: 200px;
+    width: 200px;
+}
+#scritta{
+    color:white;
+    position: relative;
+    left: 15px;
+    top: 15px;
 }
