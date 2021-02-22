@@ -13,6 +13,9 @@ footer{
     position: relative;
     left: 50px;
 }
+table{
+    border-collapse: collapse;
+}
 #Titolo{
     height: 75px;
     font-size: 50px;
@@ -28,6 +31,7 @@ footer{
     width: 30%;
     background-color: rgb(25, 158, 199);
     color: white;
+    font-weight: bold;
 }
 .secondo-blocco{
     background-color: aqua;
@@ -38,6 +42,7 @@ footer{
 #Secondo-sotto-titolo{
     font-size: 13px;
 }
+/*Muovo il pattern direttamente tramite position relative*/
 #Pattern{
     height: 50px;
     position: relative;
@@ -65,4 +70,8 @@ footer{
     position: relative;
     left: 15px;
     top: 15px;
+}
+#Lista{
+    position: relative;
+    right: 20px;;
 }
