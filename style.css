@@ -1,9 +1,38 @@
 header{
     background-color: rgb(78, 136, 223);
-}
-#Pattern{
+    background-image: url(img/pattern.png);
+    background-size: 400px;
     height: 100px;
 }
-#prima-immagine{
-    background-image: grap;
+div{
+    width: 
+}
+
+#Titolo{
+    height: 75px;
+    font-size: 50px;
+}
+.Sotto-titolo{
+    height: 5px;
+    color: gray;
+}
+.evidenzio{
+    background-color: yellow;
+}
+.spazio{
+    width: 30%;
+    background-color: rgb(25, 158, 199);
+    color: white;
+}
+#Scritta{
+    color:darkturquoise;
+}
+#Secondo-sotto-titolo{
+    font-size: 13px;
+}
+#Pattern{
+    height: 50px;
+}
+#sotto-info{
+    font-size: 10px;
 }
